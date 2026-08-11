@@ -4,3 +4,14 @@
     --green: #94BE79;
     --orange: #D8BA86;
 }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: var(--text-color);
+    background-color: var(--main-background);
+}
