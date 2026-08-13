@@ -5,6 +5,24 @@
     --orange: #D8BA86;
 }
 
+@font-face {
+    font-family: 'Oxanium';
+    src: url('./fonts/Oxanium.woff2') format('woff2'),
+        url('./fonts/Oxanium.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto Condensed';
+    src: url('./fonts/RobotoCondensed.woff2') format('woff2'),
+        url('./fonts/RobotoCondensed.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 * {
     margin: 0;
     padding: 0;
