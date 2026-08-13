@@ -3,6 +3,8 @@
     --main-background: #1E2128;
     --green: #94BE79;
     --orange: #D8BA86;
+
+    --h2-pseudo-spacing: 12px;
 }
 
 @font-face {
@@ -33,3 +35,29 @@ body {
     color: var(--text-color);
     background-color: var(--main-background);
 }
+
+h2 {
+    font-family: "Oxanium";
+    font-size: 22px;
+    font-weight: 600;
+}
+
+h2::before{
+    content: "";
+    display: block;
+    height: 1px;
+    width: 100%;
+    background-color: var(--text-color);
+    margin-bottom: var(--h2-pseudo-spacing);
+}
+
+h2::after{
+    content: "";
+    display: block;
+    height: 1px;
+    width: 100%;
+    background-color: var(--text-color);
+    margin-top: var(--h2-pseudo-spacing);
+}
+
+
