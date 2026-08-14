@@ -34,6 +34,7 @@
 body {
     color: var(--text-color);
     background-color: var(--main-background);
+    font-family: "Roboto Condensed";
 }
 
 h2 {
@@ -60,4 +61,18 @@ h2::after{
     margin-top: var(--h2-pseudo-spacing);
 }
 
+.brand-name {
+    font-family: "Oxanium";
+    font-size: 16px;
+    text-transform: uppercase;
+}
 
+.brand-name::after {
+    content: "";
+    display: inline-block;
+    height: 6px;
+    width: 6px;
+    background-color: var(--green);
+    alignment-baseline: baseline;
+    margin-left: 2px;
+}
