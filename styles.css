@@ -91,3 +91,36 @@ h2::after{
     alignment-baseline: baseline;
     margin-left: 2px;
 }
+
+.project-section {
+    display: grid;
+    gap: 28px;
+    background: radial-gradient(circle at 120% 150%, #93be7924, #1e212800);
+}
+
+.project-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.project-subheading {
+    margin-bottom: 6px;
+    font-family: "Oxanium";
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.summary {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* Utility */
+
+.green {
+    color: var(--green);
+}
+
+.orange {
+    color: var(--orange);
+}
