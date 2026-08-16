@@ -32,6 +32,11 @@
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 body {
     color: var(--text-color);
     background-color: var(--main-background);
@@ -127,6 +132,10 @@ h2::after{
 
 .blue {
     color: var(--blue);
+}
+
+.gray {
+    color: #cccccc81;
 }
 
 .radial-green {
