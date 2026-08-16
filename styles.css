@@ -95,7 +95,14 @@ h2::after{
 .project-section {
     display: grid;
     gap: 28px;
+}
+
+.radial-green {
     background: radial-gradient(circle at 120% 150%, #93be7924, #1e212800);
+}
+
+.radial-orange {
+    background: radial-gradient(circle at 120% 150%, #D8BA8624, #1e212800);
 }
 
 .project-wrapper {
