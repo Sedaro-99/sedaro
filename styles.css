@@ -98,14 +98,6 @@ h2::after{
     gap: 28px;
 }
 
-.radial-green {
-    background: radial-gradient(circle at 120% 150%, #93be7924, #1e212800);
-}
-
-.radial-orange {
-    background: radial-gradient(circle at 120% 150%, #D8BA8624, #1e212800);
-}
-
 .project-wrapper {
     display: flex;
     justify-content: space-between;
@@ -131,4 +123,20 @@ h2::after{
 
 .orange {
     color: var(--orange);
+}
+
+.blue {
+    color: var(--blue);
+}
+
+.radial-green {
+    background: radial-gradient(circle at 120% 150%, #93be7924, #1e212800);
+}
+
+.radial-orange {
+    background: radial-gradient(circle at 120% 150%, #D8BA8624, #1e212800);
+}
+
+.radial-blue {
+    background: radial-gradient(circle at 120% 150%, #6B9FB024, #1e212800);
 }
