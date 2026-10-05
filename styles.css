@@ -9,21 +9,27 @@
 }
 
 @font-face {
-    font-family: 'Oxanium';
-    src: url('./fonts/Oxanium.woff2') format('woff2'),
-        url('./fonts/Oxanium.woff') format('woff');
-    font-weight: 200;
-    font-style: normal;
-    font-display: swap;
+  font-family: "Oxanium";
+  src: url("fonts/oxanium/Oxanium-VariableFont_wght.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Roboto Condensed';
-    src: url('./fonts/RobotoCondensed.woff2') format('woff2'),
-        url('./fonts/RobotoCondensed.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+  font-family: "Roboto Condensed";
+  src: url("fonts/roboto-condensed/RobotoCondensed-VariableFont_wght.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto Condensed";
+  src: url("fonts/roboto-condensed/RobotoCondensed-Italic-VariableFont_wght.woff2") format("woff2");
+  font-style: italic;
+  font-weight: 100 900;
+  font-display: swap;
 }
 
 * {
